@@ -1,0 +1,14 @@
+[
+    {
+        "remote"        :   "github",
+        "repository"    :   "OrangeFoxRecovery/kernel_xiaomi_juice",
+        "target_path"   :   "kernel/xiaomi/juice",
+        "revision"      :   "fox_11.0"
+    },
+    {
+        "remote"        :   "TeamWin",
+        "repository"    :   "android_device_qcom_twrp-common",
+        "target_path"   :   "device/qcom/twrp-common",
+        "revision"      :   "android-11"
+    }
+]
