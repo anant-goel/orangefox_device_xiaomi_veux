@@ -47,6 +47,12 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
 	export OF_USE_GREEN_LED=0
 	export OF_FBE_METADATA_MOUNT_IGNORE=1
+	export ALLOW_MISSING_DEPENDENCIES=true
+        export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
+        export LC_ALL="C"
+        export DISABLE_ARTIFACT_PATH_REQUIREMENTS="true"
+        export OF_FORCE_PREBUILT_KERNEL=1
+        export TW_THEME=portrait_hdpi
 
 	export OF_USE_MAGISKBOOT=1
 	export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
