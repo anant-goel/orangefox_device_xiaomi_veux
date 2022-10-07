@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_veux.mk
+    $(LOCAL_DIR)/omni_veux.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_veux-eng \
-    twrp_veux-userdebug
+    omni_veux-eng \
+    omni_veux-userdebug
