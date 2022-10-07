@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
 # Inherit some common TWRP stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Product Specifics
-PRODUCT_NAME := twrp_veux
+PRODUCT_NAME := omni_veux
 PRODUCT_DEVICE := veux
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11 Pro+/Poco X4 Pro
