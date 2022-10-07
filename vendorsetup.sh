@@ -88,7 +88,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_ALLOW_DISABLE_NAVBAR=0
 	
 	# R11.1 Settings
-	export FOX_VERSION="R12.1"
+	export FOX_VERSION="R11.0"
 	export OF_MAINTAINER="Anant_Goel"
 
 	# let's see what are our build VARs
