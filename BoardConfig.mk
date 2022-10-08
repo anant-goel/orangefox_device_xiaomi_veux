@@ -164,6 +164,14 @@ TW_DEFAULT_BRIGHTNESS := 1200
 TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_APEX := true
 
+# PBRP specific build flags
+PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+
+# PB Torch
+PB_TORCH_PATH := "/proc/qcom_flash"
+PB_TORCH_MAX_BRIGHTNESS := 1
+
 # Vibration
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 
